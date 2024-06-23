@@ -1,12 +1,14 @@
 :root {
-  --bg: #2d2d2d;
+  --bg1: #2d2d2d;
+  --bg2: #3d3d3d;
   --font-color: white;
   --prm-font: 'Arial';
   --sec-font: 'Futura';
+  --border: 2px solid white;
 }
 
 body {
-  background-color: var(--bg);
+  background-color: var(--bg1);
   color: var(--font-color);
   font-family: var(--prm-font);
   margin: 0;

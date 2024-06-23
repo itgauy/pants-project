@@ -1,7 +1,7 @@
 /* NAVBAR */
 header {
   color: white;
-  background: #3D3D3D;
+  background: var(--bg2);
 }
 
 header .container {
@@ -28,4 +28,117 @@ nav {
 
 nav a {
   margin-left: 20px;
+}
+
+
+
+/* FORM */
+.form-container {
+  /* border: var(--border); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: calc(100vh - 150px);
+  max-width: 500px;
+}
+
+form {
+  border: var(--border);
+  padding: 20px 50px 40px 50px;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.room-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border: var(--border);
+  background: none;
+  width: 20em;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  color: white;
+  outline: none;
+}
+
+button {
+  border: var(--border);
+  background: white;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--bg2);
+  border-left: var(--bg2);
+  color: white;
+}
+
+@media (min-width: 124px) and (max-width: 1024px) {
+  form {
+    border: var(--border);
+    padding: 10px 40px 30px 40px;
+  }
+
+  form h2 {
+    font-size: 22px;
+  }
+
+  input {
+    width: 10em;
+  }
+
+  button {
+    width: 100px;
+  }
+}
+
+
+
+/* FOOTER */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg2);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart {
+  animation: blink 1s linear infinite;
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
