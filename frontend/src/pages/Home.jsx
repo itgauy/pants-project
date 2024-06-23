@@ -1,4 +1,3 @@
-import Hi from "../components/test"
 const Home = () => {
   return (
     <>

@@ -9,8 +9,5 @@ body {
   background-color: var(--bg);
   color: var(--font-color);
   font-family: var(--prm-font);
-}
-
-h1 {
-  font-family: var(--sec-font);
+  margin: 0;
 }
