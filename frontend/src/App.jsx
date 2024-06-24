@@ -1,8 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
+
+//components
 import Navbar from './components/navbar'
 import Footer from './components/Footer'
+
+// pages
 import Home from './pages/Home'
+import AboutUs from './pages/AboutUs'
+import HTP from './pages/HowToPlay'
+
+//style
 import './App.css'
 
 function App() {
@@ -18,6 +26,14 @@ function App() {
               <Route
                 path="/"
                 element={<Home />}
+              />
+              <Route
+                path="/about-us"
+                element={<AboutUs />}
+              />
+              <Route
+                path="/htp"
+                element={<HTP />}
               />
             </Routes>
           </div>
