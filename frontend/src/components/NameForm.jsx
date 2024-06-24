@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
 
-const RoomForm = () => {
+const NameForm = () => {
   return (
     <>
       <div className="form-container">
         <form className="room-form">
-          <h2>Join or create a room</h2>
+          <h2>Enter your display name</h2>
           <div className="room-name">
             <input type="text" />
             <button>Enter</button>
@@ -17,4 +17,4 @@ const RoomForm = () => {
   )
 }
 
-export default RoomForm
+export default NameForm
