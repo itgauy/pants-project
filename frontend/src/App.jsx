@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import HTP from './pages/HowToPlay'
+import Room from './pages/Room'
 
 //style
 import './App.css'
@@ -34,6 +35,10 @@ function App() {
               <Route
                 path="/htp"
                 element={<HTP />}
+              />
+              <Route
+                path="/room"        //Temporary path
+                element={<Room />}
               />
             </Routes>
           </div>

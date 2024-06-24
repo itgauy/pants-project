@@ -39,7 +39,7 @@ nav a {
   justify-content: center;
   align-items: center;
   margin: auto;
-  height: calc(100vh - 125px);
+  height: calc(100vh - 150px);
   max-width: 500px;
 }
 
@@ -68,21 +68,6 @@ input {
   font-weight: bold;
   color: white;
   outline: none;
-}
-
-button {
-  border: var(--border);
-  background: white;
-  width: 150px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-button:hover {
-  background: var(--bg2);
-  border-left: var(--bg2);
-  color: white;
 }
 
 .htp {
@@ -114,7 +99,7 @@ button:hover {
 
 /* FOOTER */
 footer {
-  /* position: fixed; */
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -151,7 +136,7 @@ footer {
 
 /******************************************************************/
 
-/* About Us & How To Play */
+/* ABOUT US & HOW TO PLAY */
 .static-container {
   /* border: var(--border); */
   max-width: 700px;
@@ -169,4 +154,33 @@ footer {
 
 /******************************************************************/
 
-/* How To Play */
+/* ROOM */
+.waiting-room-container {
+  /* border: var(--border); */
+  margin: auto;
+  height: calc(100vh - 150px);
+  max-width: 500px;
+}
+
+.names-list {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.names-list>div {
+  padding: 15px 0;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.start-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 500px;
+  height: 50px;
+}

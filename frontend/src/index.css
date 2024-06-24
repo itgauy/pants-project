@@ -13,3 +13,17 @@ body {
   font-family: var(--prm-font);
   margin: 0;
 }
+
+button {
+  border: var(--border);
+  background: white;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--bg2);
+  color: white;
+}
