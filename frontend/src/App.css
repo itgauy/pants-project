@@ -158,15 +158,19 @@ footer {
 .waiting-room-container {
   /* border: var(--border); */
   margin: auto;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 200px);
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
 .names-list {
   border: 1px solid white;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 75px;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .names-list>div {
@@ -181,6 +185,6 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  width: 500px;
+  width: 100%;
   height: 50px;
 }

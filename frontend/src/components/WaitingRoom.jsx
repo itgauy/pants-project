@@ -7,6 +7,11 @@ const WaitingRoom = () => {
           <div>Hello</div>
           <div>Mark</div>
           <div>Joshua</div>
+          <div>Joshua</div>
+          <div>Joshua</div>
+          <div>Joshua</div>
+          <div>Joshua</div>
+          <div>Joshua</div>
         </div>
         <button className="start-btn">Start</button>
       </div>
