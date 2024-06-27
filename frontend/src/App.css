@@ -154,7 +154,7 @@ footer {
 
 /******************************************************************/
 
-/* ROOM */
+/* WAITING ROOM */
 .waiting-room-container {
   /* border: var(--border); */
   margin: auto;
@@ -187,4 +187,11 @@ footer {
   margin-top: 50px;
   width: 100%;
   height: 50px;
+}
+
+/******************************************************************/
+
+/* GAME ROOM */
+.game-room-container {
+  border: var(--border);
 }
