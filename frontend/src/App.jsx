@@ -11,7 +11,7 @@ import AboutUs from './pages/AboutUs'
 import HTP from './pages/HowToPlay'
 import Room from './pages/Room'
 
-//style
+//styles
 import './App.css'
 
 function App() {
