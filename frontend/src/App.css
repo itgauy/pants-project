@@ -171,6 +171,7 @@ footer {
   margin-top: 50px;
   flex: 1;
   overflow-y: auto;
+  background-color: #222;
 }
 
 .names-list>div {
@@ -202,15 +203,16 @@ footer {
   display: flex;
   height: 80vh;
   width: 50%;
+  flex-direction: column;
 }
 
 .category {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  height: 100%;
   border: var(--border);
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  flex: 1;
+  overflow-y: auto;
   background-color: #222;
 }
 
