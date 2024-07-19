@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 
 //components
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 // pages
